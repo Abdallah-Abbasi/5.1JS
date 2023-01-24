@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+            const countryToLiveIn = (languege, island, population, country) => {
+                if (languege = 'english' && population < 50 && island === false) {
+                    return `you should live in ${country} .`;
+                }
+            return `${country} dose not meet you criteria .`;
+            }
+        const country = 'canada';
+        const population = '77';
+        const island = false;
+        const languege = 'english';
+        console.log(countryToLiveIn(languege, island, population, country));
+        </script>
+    </body>
+</html>
